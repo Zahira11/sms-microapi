@@ -4,7 +4,7 @@
 *.pyc
 __pycache__
 db.sqlite3
-media
+# media
 
 # Backup files # 
 *.bak 
@@ -23,6 +23,8 @@ media
 .idea/**/gradle.xml 
 .idea/**/libraries 
 *.iws /out/ 
+
+.gitignore
 
 # Python # 
 *.py[cod] 
@@ -76,14 +78,16 @@ celerybeat-schedule.*
 *.sage.py 
 
 # Environments 
-.env 
+*.env 
 .venv 
 env/ 
-venv/ 
-smsVenv/ 
+venv/
+venv2/ 
+smsvenv/ 
 ENV/ 
 env.bak/ 
 venv.bak/ 
+
 
 # mkdocs documentation 
 /site 
